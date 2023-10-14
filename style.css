@@ -1,0 +1,57 @@
+body{
+    background-color:darkolivegreen
+}
+
+.form-label{
+    
+    background-color: darkolivegreen;
+    color: white;
+}
+
+.form-control{
+
+    background-color:sienna;
+   
+}
+
+.form-control2{
+    background-color: sienna;
+}
+
+.btn{
+    border-color: white;
+    color: white;
+    background-color: sienna;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+
+
+textarea:focus {
+    background-color: darkolivegreen;
+}
+
+
+input[type="checkbox"],
+
+
+.custom-checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: darkolivegreen; 
+    border: 1px solid  darkolivegreen; 
+    cursor: pointer;
+    position: relative;
+}
+
+
+input[type="checkbox"]:checked + .custom-checkbox {
+    background-color: #006400; 
+    border: 1px solid #006400; 
+}
+
+
+
+

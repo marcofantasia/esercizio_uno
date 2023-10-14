@@ -1,5 +1,5 @@
 <?php
-// Includi il file di connessione al database
+
 include 'database.php';
 
 // Crea una tabella chiamata "dati" nel database "users"
@@ -19,7 +19,7 @@ if ($conn->query($sql) === TRUE) {
     echo "Errore durante la creazione della tabella: " . $conn->error;
 }
 
-// Chiudi la connessione al database
+
 $conn->close();
 ?>
 

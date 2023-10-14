@@ -12,11 +12,11 @@ $(document).ready(function() {
             processData: false,
             contentType: false,
             success: function(response) {
-                // Gestisci la risposta dal server
+                
                 $("#response").html(response);
             },
             error: function(jqXHR, textStatus, errorThrown) {
-                // Gestisci gli errori di richiesta
+                
                 console.log(textStatus, errorThrown);
             }
         });

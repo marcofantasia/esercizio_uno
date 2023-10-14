@@ -1,5 +1,5 @@
 <?php
-// Include il file di connessione al database
+
 include 'database.php';
 
 // Verifica se i dati sono stati inviati tramite POST
@@ -11,7 +11,7 @@ if ($_POST) {
     $messaggio = $_POST["messaggio"];
     $privacy = isset($_POST["privacy"]) ? 1 : 0; // Converte la checkbox in un valore booleano
 
-    // Connessione al database
+    
     
 
     // Inserimento dei dati nella tabella "dati"
@@ -25,7 +25,7 @@ if ($_POST) {
         echo "Errore durante l'inserimento dei dati nel database: " . $conn->error;
     }
 
-    // Chiudi la connessione al database
+    
     $stmt->close();
     
 }
